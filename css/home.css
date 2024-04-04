@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.top-screen-container {
+	background-color: #222;
+	padding: 5rem 0;
+}
+
+.top-screen {
+	color: white;
+	margin: 0 3rem;
+	display: flex;
+	gap: 3rem;
+	flex-direction: column;
+}
+
+.sidebyside {
+	display: flex;
+	flex-direction: row;
+	max-width: 700px;
+	margin: auto;
+	gap: 32px;
+}
+
+.mainlogo {
+	width: 128px;
+	border-radius: 32px;
+}
+
+.buttons-group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	margin: 1rem 0;
+}
+
+*[class^="button-"] {
+	padding: 8px 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.button-primary {
+	color: white;
+	background-color: #55f;
+	border-radius: 8px;
+}
+
+.button-primary:hover {
+	background-color: #44e;
+}
+
+.button-secondary {
+	color: black;
+	background-color: #ddd;
+	border-radius: 8px;
+}
+
+.button-secondary:hover {
+	background-color: #ccc;
+}
+
+.image-sbs {
+	display: grid;
+	grid-template-areas: ". .";
+	max-width: 1250px;
+	margin:  3rem auto;
+	gap: 32px;
+	padding: 2rem;
+}
+
+.image-sbs_img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image-sbs_img img {
+	width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+	.features {
+		min-height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.image-sbs {
+		grid-template-areas: "." ".";
+	}
+}
