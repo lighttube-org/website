@@ -1,0 +1,86 @@
+body {
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.t-center {
+	text-align: center;
+}
+
+tr > td {
+	padding: 8px 0;
+}
+
+.title {
+	display: block;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.subtitle {
+	display: block;
+	font-size: .9rem;
+}
+
+.form {
+	max-width: 1000px;
+	margin: auto;
+}
+
+input[type=url], input[type=email], input[type=text], input[type=submit], select {
+	padding: 4px 8px;
+	width: 200px;
+	margin-left: 8px;
+}
+
+input[type=submit] {
+	margin: auto;
+	display: block;
+}
+
+input[type=checkbox] {
+	width: 24px;
+	height: 24px;
+}
+
+.captcha-box {
+	width: 250px;
+	border: 1px solid gray;
+	border-radius: 8px;
+	padding: 8px;
+}
+
+.captcha-box img {
+	width: 100%;
+	border: 1px solid black;
+}
+
+.captcha-box input {
+	margin-left: 0;
+	width: 100%;
+}
+
+.captcha-box small {
+	font-size: .7rem;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+
+.center {
+	margin: auto;
+}
+
+#result {
+	text-align: center;
+	padding: 16px 32px;
+	border: 1px solid lightgray;
+	border-radius: 16px;
+	width: fit-content;
+	max-width: 500px;
+	margin: 1rem auto;
+	display: none;
+}
