@@ -46,6 +46,7 @@ body {
 	padding: 8px 12px;
 	text-decoration: none;
 	cursor: pointer;
+	text-align: center;
 }
 
 .button-primary {
@@ -99,5 +100,15 @@ body {
 @media screen and (max-width: 900px) {
 	.image-sbs {
 		grid-template-areas: "." ".";
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.sidebyside {
+		flex-direction: column;
+	}
+
+	.buttons-group {
+		flex-wrap: wrap;
 	}
 }
