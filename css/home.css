@@ -69,6 +69,21 @@ body {
 	background-color: #ccc;
 }
 
+.note {
+	background-color: #d33;
+}
+
+.note div {
+	padding: 2rem;
+	margin: auto;
+	max-width: 1250px;
+	color: white;
+}
+
+.note a {
+	color: white;
+}
+
 .image-sbs {
 	display: grid;
 	grid-template-areas: ". .";
